@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "dev": "deno run -A --node-modules-dir npm:vite",
+    "build": "deno run -A --node-modules-dir npm:vite build"
+  },
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "experimentalDecorators": true
+  },
+  "imports": {
+    "@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.4",
+    "lit": "npm:lit@^3.2.1",
+    "vite": "npm:vite@^6.2.6"
+  }
+}

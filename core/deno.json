@@ -1,0 +1,7 @@
+{
+  "name": "@scope/core",
+  "exports": {
+    "./f.ts": "./f.ts",
+    "./g.ts": "./g.ts"
+  }
+}
